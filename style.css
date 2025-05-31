@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: beige;
+  color: black;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  padding: 40px;
+}
+
+.profile-pic img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid black;
+}
+
+.profile-info {
+  margin-left: 30px;
+  max-width: 600px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+.links a {
+  text-decoration: none;
+  color: black;
+  margin-right: 10px;
+  font-weight: 500;
+}
+
+.desc {
+  margin-top: 10px;
+  font-size: 1em;
+  line-height: 1.6;
+}
